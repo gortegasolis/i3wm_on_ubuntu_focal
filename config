@@ -299,10 +299,6 @@ bar {
 
 exec_always --no-startup-id /usr/bin/nitrogen --restore
 
-exec --nos-startup-id /usr/bin/kdeconnect-app
-
-exec --nos-startup-id /usr/bin/kdeconnect-indicator
-
 exec --no-startup-id /usr/bin/lxpolkit
 
 exec --no-startup-id /usr/bin/xfce4-power-manager
@@ -318,13 +314,6 @@ exec --no-startup-id nice --adjustment=10 /usr/bin/opensnitch-ui
 exec --no-startup-id nice /usr/bin/syncthing-gtk -m
 
 exec --no-startup-id insync quit; sleep 300; nice insync start
-
-
-#Gtrayicons
-exec --no-startup-id /usr/bin/gtrayicon --activate="sensible-browser https://keep.google.com" --deactivate="exit" --activate-icon="/usr/share/icons/Numix-Circle/48/apps/tomboy.svg" --deactivate-icon="/usr/share/icons/Numix-Circle/48/apps/tomboy.svg" --tooltip="Google Keep"
-
-exec --no-startup-id /usr/bin/gtrayicon --activate="/home/gabriel/Scripts_propios/clamscan_poweroff.sh--deactivate="pcmanfm /home/gabriel/Alertas/" --activate-icon="/usr/share/icons/Numix-Circle/48/apps/clamav.svg" --tooltip="Malware check"
-
 
 # Modificaciones para teclado
 # Pulse Audio controls

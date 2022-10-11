@@ -1,1 +1,1 @@
-# i3wm_on_ubuntu_focal
+This is just my personal taste on desktops.

@@ -313,7 +313,7 @@ exec --no-startup-id nice --adjustment=10 /usr/bin/opensnitch-ui
 
 exec --no-startup-id nice /usr/bin/syncthing-gtk -m
 
-exec --no-startup-id insync quit; sleep 300; nice insync start
+exec --no-startup-id sleep 300; nice insync start
 
 # Modificaciones para teclado
 # Pulse Audio controls
